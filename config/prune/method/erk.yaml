@@ -1,0 +1,5 @@
+name: erk
+func: PWR.prune.method.${prune.method.name}
+warmup: 0
+finetune: 175
+iterations: 1

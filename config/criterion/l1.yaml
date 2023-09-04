@@ -1,0 +1,3 @@
+name: L1Loss
+func: torch.nn.${criterion.name}
+params:

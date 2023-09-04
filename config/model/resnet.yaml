@@ -1,0 +1,9 @@
+name: resnet18
+func: PWR.models.${model.name}
+load_path: ./saved
+load_name: resnet18.pth
+save_path: ./saved
+pretrained: False
+params:
+  pretrained: False
+  num_classes: ${data.num_classes}

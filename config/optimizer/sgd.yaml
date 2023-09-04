@@ -1,0 +1,8 @@
+name: SGD
+func: torch.optim.${optimizer.name}
+source: torch.optim
+params:
+  lr: 1e-1
+  momentum: 0.9
+  weight_decay: 5e-4
+  nesterov: True

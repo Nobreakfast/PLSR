@@ -1,0 +1,6 @@
+name: CosineAnnealingLR
+func: torch.optim.lr_scheduler.${scheduler.name}
+source: torch.optim.lr_scheduler
+params:
+  T_max: 30
+  eta_min: 1e-4

@@ -1,0 +1,7 @@
+name: cifar100
+func: PWR.datasets.${data.name}
+num_classes: 100
+params:
+  path: ~/Data/cifar100
+  batch_size: 128
+  workers: 4

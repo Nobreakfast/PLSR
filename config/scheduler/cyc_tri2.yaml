@@ -1,0 +1,9 @@
+name: CyclicLR
+func: torch.optim.lr_scheduler.${scheduler.name}
+source: torch.optim.lr_scheduler
+params:
+  max_lr: ${optimizer.params.lr}
+  base_lr: 1e-3 #${scheduler.params.max_lr}
+  step_size_up: 5
+  step_size_down: 15
+  mode: "triangular"

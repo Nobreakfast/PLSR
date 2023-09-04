@@ -1,0 +1,6 @@
+name: lth
+func: PWR.prune.method.${prune.method.name}
+warmup: 0
+finetune: 175
+iterations: 10
+epoch: 175

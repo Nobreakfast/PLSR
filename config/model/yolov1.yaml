@@ -1,0 +1,10 @@
+name: yolov1
+func: PWR.models.${model.name}
+load_path: ./load
+load_name: yolo.pth
+save_path: ./save
+pretrained: False
+params:
+  split: 7
+  box: 2
+  class: 20

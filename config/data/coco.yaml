@@ -1,0 +1,7 @@
+name: coco
+func: PWR.datasets.${data.name}
+params:
+  path: /Users/allen/Data/COCO/train2017/
+  batch_size: 2
+  workers: 1
+  annFile: /Users/allen/Data/COCO/annotations/instances_train2017.json

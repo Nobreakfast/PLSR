@@ -1,0 +1,2 @@
+name: randn
+func: PWR.prune.score.${prune.score.name}

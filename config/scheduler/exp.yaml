@@ -1,0 +1,6 @@
+name: ExponentialLR
+func: torch.optim.lr_scheduler.${scheduler.name}
+source: torch.optim.lr_scheduler
+params:
+  gamma: 0.95
+  last_epoch: -1

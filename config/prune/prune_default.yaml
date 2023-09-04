@@ -1,0 +1,21 @@
+defaults:
+  - method: oneshot
+  - score: l1
+
+load_model: False
+load_path: ${model.load_path}
+load_name: ${model.load_name}
+amount: 0.9
+shuffle: False
+pwr: False
+inverse: False
+init: False
+reinit: False
+restore: False
+prune_init: False
+restore_name: best
+
+save_mask: False
+
+# plot
+plot_prune_stat: False

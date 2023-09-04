@@ -1,0 +1,2 @@
+name: erk
+func: PWR.prune.score.${prune.score.name}

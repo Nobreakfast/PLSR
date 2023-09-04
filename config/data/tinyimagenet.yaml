@@ -1,0 +1,7 @@
+name: tinyimagenet
+func: PWR.datasets.${data.name}
+num_classes: 200
+params:
+  path: ~/Data
+  batch_size: 256
+  workers: 4

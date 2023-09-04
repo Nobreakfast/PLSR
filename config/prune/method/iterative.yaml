@@ -1,0 +1,6 @@
+name: iterative
+func: PWR.prune.method.${prune.method.name}
+warmup: 0
+finetune: 160
+iterations: 5
+epoch: 40

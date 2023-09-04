@@ -1,0 +1,12 @@
+name: resnet8
+func: PWR.models.${model.name}
+load_path: ./saved
+load_name: resnet18.pth
+save_path: ./saved
+pretrained: False
+params:
+  pretrained: conv1
+  num_classes: ${data.num_classes}
+
+# TODO the pretrained is a little bit wrong, but this is for evaluation in paper.
+# the pretrained is represent the layer name, not the pretrained status

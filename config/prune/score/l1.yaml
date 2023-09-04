@@ -1,0 +1,2 @@
+name: l1
+func: PWR.prune.score.${prune.score.name}

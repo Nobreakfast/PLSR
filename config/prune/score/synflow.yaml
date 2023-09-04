@@ -1,0 +1,2 @@
+name: synflow
+func: PWR.prune.score.${prune.score.name}

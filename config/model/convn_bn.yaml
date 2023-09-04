@@ -1,0 +1,11 @@
+name: convn
+func: PWR.models.${model.name}
+load_path: /Users/allen/NetDrive/Projects/python/notrain/logs/saved
+load_name: conv_${model.params.layer}.pth
+save_path: ./save
+pretrained: False
+params:
+  input: [32,32]
+  layer: 3
+  bn: True
+  num_classes: ${data.num_classes}

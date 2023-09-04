@@ -1,0 +1,10 @@
+name: yolo
+func: PWR.datasets.${data.name}
+params:
+  batch_size: 2
+  workers: 1
+  input_shape: [640, 640]
+  num_classes: 80
+#  epoch: ${task.epoch}
+  train_path: /Users/allen/Data/COCO/utils_coco/coco_train.txt
+  val_path: /Users/allen/Data/COCO/utils_coco/coco_val.txt

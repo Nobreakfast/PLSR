@@ -1,0 +1,6 @@
+name: pai
+func: PWR.prune.method.${prune.method.name}
+warmup: 0
+finetune: 175
+iterations: 100
+epoch: 0

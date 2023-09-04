@@ -1,0 +1,6 @@
+name: cruw
+func: PWR.datasets.${data.name}
+params:
+  path: /home/zhaohaocheng/data3/.hc/CRUW/train
+  batch_size: 2
+  workers: 1

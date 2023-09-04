@@ -1,0 +1,4 @@
+name: CrossEntropyLoss
+func: torch.nn.${criterion.name}
+source: torch.nn
+params:

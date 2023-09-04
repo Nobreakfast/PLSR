@@ -1,0 +1,6 @@
+name: Adam
+func: torch.optim.${optimizer.name}
+source: torch.optim
+params:
+  lr: 3e-4
+  weight_decay: 5e-4
