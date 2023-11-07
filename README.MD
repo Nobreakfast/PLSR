@@ -23,10 +23,36 @@ pip install hydra-core==1.2 tqdm tensorboardX
 
 ## Paper Experiments
 
-- Pre-trained models: ```sh exp/bl.sh```
-- Experiments for Table II: ```sh exp/exp_table_2.sh```
-- Experiments for Table III: ```sh exp/exp_table_3.sh```
-- Ablation Experiments for Table IV: ```sh exp/exp_table_4.sh```    
-- Ablation Experiments for Table V: ```sh exp/exp_table_5.sh```
-- Experiments for Figure 1: ```sh exp/exp_fig_1.sh```
-- Discussion Experiments for Figure 3: Open the jupyter file `exp/plot.ipynb`.
+### Pre-trained models
+
+``` shell
+sh exp/bl.sh
+```
+
+### Figure
+
+``` shell
+# pre-trained models
+sh exp/exp0_bl.sh
+
+# figure
+sh exp/exp0_trained.sh
+```
+
+### Table
+
+``` shell
+# Table II
+sh exp/exp1.sh
+
+# Table III
+sh exp/exp2.sh
+
+# Table IV
+sh exp/exp3_erk.sh
+sh exp/exp3_featio.sh
+
+# Table V
+sh exp/exp_ablation.sh
+sh exp/exp_ablation2.sh
+```
